@@ -3527,17 +3527,6 @@ Created using IcoMoon - icomoon.io
     clear: both;
     content: " "; }
 
-.index-page .page-header {
-  height: 125vh; }
-  .index-page .page-header .container > .content-center {
-    top: 37%; }
-  .index-page .page-header .category-absolute {
-    position: absolute;
-    top: 100vh;
-    margin-top: -60px;
-    padding: 0 15px;
-    width: 100%;
-    color: rgba(255, 255, 255, 0.5); }
 
 .landing-page .header {
   height: 100vh;
@@ -3735,61 +3724,7 @@ Created using IcoMoon - icomoon.io
 .section-signup {
   padding-top: 20vh; }
 
-.page-header {
-  height: 100vh;
-  max-height: 1050px;
-  padding: 0;
-  color: #FFFFFF;
-  position: relative;
-  background-position: center center;
-  background-size: cover; }
 
-  .page-header footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%; }
-  .page-header .container {
-    height: 100%;
-    z-index: 1;
-    text-align: center;
-    position: relative; }
-    .page-header .container > .content-center {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-      padding: 0 15px;
-      color: #FFFFFF;
-      width: 100%;
-      max-width: 880px; }
-  .page-header .category,
-  .page-header .description {
-    color: rgba(255, 255, 255, 0.5); }
-  .page-header.page-header-small {
-    height: 60vh;
-    max-height: 440px; }
-  .page-header:after, .page-header:before {
-    position: absolute;
-    z-index: 0;
-    width: 100%;
-    height: 100%;
-    display: block;
-    left: 0;
-    top: 0;
-    content: ""; }
-  .page-header:before {
-    background-color: rgba(0, 0, 0, 0.5); }
-  .page-header[filter-color="orange"] {
-    background: rgba(44, 44, 44, 0.2);
-    /* For browsers that do not support gradients */
-    /* For Safari 5.1 to 6.0 */
-    /* For Opera 11.1 to 12.0 */
-    /* For Firefox 3.6 to 15 */
-    background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
-    /* Standard syntax */ }
-  .page-header .container {
-    z-index: 2; }
 
 .clear-filter:after, .clear-filter:before {
   display: none; }
@@ -4876,7 +4811,8 @@ Created using IcoMoon - icomoon.io
     .section-nucleo-icons .icons-container i:nth-child(6) {
       font-size: 48px; }
   .page-header .container h6.category-absolute {
-    width: 90%; } }
+    width: 90%; } 
+  }
 
 @media screen and (min-width: 991px) and (max-width: 1200px) {
   .section-images .hero-images-container-1 {

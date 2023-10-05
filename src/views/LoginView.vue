@@ -3,5 +3,5 @@
 </script>
 
 <template>
-    Home Page
+   Login Page
 </template>
