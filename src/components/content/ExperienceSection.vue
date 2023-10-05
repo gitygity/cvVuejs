@@ -125,7 +125,7 @@
 
 .ac-container input:checked + .ac-icon::after {
   font-family: 'Font Awesome 5 Free';
-  content: '\f068';
+  content: '\2212';
 }
 
 .ac-container .ac-item-detail::before {

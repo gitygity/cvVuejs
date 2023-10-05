@@ -43,7 +43,12 @@
   width: 90vw;
   margin: 1rem auto 0;
 }
-
+.card {
+padding: 2rem;
+margin: 3rem 0rem;
+border-radius: 0.2rem;
+box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
 .card section {
   padding: 1rem 0;
 }

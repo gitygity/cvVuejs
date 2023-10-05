@@ -8,7 +8,9 @@
       </header>
       <div class="switch-portfolio">
         <ul>
-          <li><a class="switch-link swtich-active" href="#"><i class="fa-solid fa-laptop"></i></a></li>
+          <li><a class="switch-link swtich-active" href="#">
+           
+            <i class="fa-solid fa-laptop"></i></a></li>
           <li><a class="switch-link" href="#"><i class="fa-solid fa-image"></i>
             </a></li>
           <li><a class="switch-link" href="#"><i class="fa-solid fa-camera"></i></a></li>
@@ -204,20 +206,6 @@
   gap: 0.5rem;
 }
 
-/* Small screen devices (600px and above) */
-@media only screen and (min-width: 600px) {
-  .portfolio-column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Medium screen devices (768px and above) */
-@media only screen and (min-width: 768px) {
-  .title {
-    font-size: 3rem;
-  }
-}
 
   .portfolio-section {
   background-color: #378c4016;
@@ -425,4 +413,20 @@ img {
 .overly-portfolio:hover {
   opacity: 0.8;
 }
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {
+  .portfolio-column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
 </style>
