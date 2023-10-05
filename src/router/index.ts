@@ -1,25 +1,25 @@
 import { createRouter, createWebHistory, type RouteLocationNormalized } from 'vue-router'
-import NotFoundView from "../views/NotFoundView.vue"
+import NotFoundView from '../views/NotFoundView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name:"home",
-      components:{
-        header:()=>import("../components/header/HeaderCv.vue"),
-        default:()=>import("../views/HomeView.vue"),
-        footer:()=>import("../components/footer/FooterCv.vue"),
+      name: 'home',
+      components: {
+        header: () => import('../components/header/HeaderCv.vue'),
+        default: () => import('../components/content/ContentCv.vue'),
+        footer: () => import('../components/footer/FooterCv.vue')
       }
     },
     {
       path: '/about',
-      name:"about",
-      components:{
-        header:()=>import("../components/header/HeaderCv.vue"),
-        default:()=>import("../views/AboutView.vue"),
-        footer:()=>import("../components/footer/FooterCv.vue"),
+      name: 'about',
+      components: {
+        header: () => import('../components/header/HeaderCv.vue'),
+        default: () => import('../views/AboutView.vue'),
+        footer: () => import('../components/footer/FooterCv.vue')
       }
     },
     {
@@ -27,7 +27,7 @@ const router = createRouter({
       name: 'login',
       component: () => import('../views/LoginView.vue')
     },
-    { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFoundView },
+    { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFoundView }
   ]
 })
 
